@@ -2,11 +2,16 @@
   <ion-menu menuId="main-menu" content-id="main"> 
     <ion-header>
       <ion-toolbar>
-        <ion-title>Home</ion-title>
+        <ion-title>Dashboard</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content>
       <ion-list>
+        <ion-item routerLink="home">
+          <ion-icon name="home" slot="Start">
+          </ion-icon>
+          <ion-label>Home</ion-label>
+        </ion-item>
         <ion-item routerLink="goal">
           <ion-icon name="goal" slot="Start">
           </ion-icon>
